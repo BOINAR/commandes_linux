@@ -72,7 +72,7 @@ bash <script.sh> : Exécute un script bash
 
 #### Gestion des paquet (APT)
 
-``ùbuntu
+```ubuntu
 Commande
 Description
 sudo apt update
