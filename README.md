@@ -55,6 +55,8 @@ grep : recherche une chaine dans un fichier
 ```ubuntu
 nano <fichier> : Éditeur de texte simple dans le terminal
 vim <fichier> : Éditeur plus avancé (à apprendre plus tard si besoin)
+code . : Ouvre le dossier courant dans VS Code (si installé avec WSL)
+
 ```
 
 #### Shell & scripts
