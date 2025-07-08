@@ -54,6 +54,10 @@ grep : # recherche une chaine dans un fichier
 grep -r : # Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
 ```
 
+```zsh
+ps : # verifier les processus en cours
+```
+
 #### Editeur de test 
 
 ```zsh
