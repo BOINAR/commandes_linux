@@ -73,7 +73,6 @@ bash <script.sh> : Exécute un script bash
 #### Gestion des paquet (APT)
 
 ```ubuntu
-Commande : Description
 sudo apt update : Met à jour la liste des paquets
 sudo apt upgrade : Met à jour les paquets installés
 sudo apt install <paquet> : Installe un paquet
