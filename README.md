@@ -9,54 +9,54 @@ pwd : # affiche le repertoire de travail
 cd : # naviguer dans le systeme
 ```
 ```zsh
-mkdir : créer un répertoire
+mkdir : # créer un répertoire
 ```
 ```zsh
-ls : voir contenu des répertoires
-```
-
-```zsh
-mkdir : créer un répertoire
-```
-```zsh
-touch : créer un fichier // expemple touch bonjout.txt
-```
-```zsh
-touch : créer un fichier // expemple touch bonjout.txt
-```
-```zsh
-mv : déplacer des ficher // mv bonjour.txt test // déplacer ficher bonjour.txt dans le dossier test
+ls : # voir contenu des répertoires
 ```
 
 ```zsh
-mv : renommer un fichier // expemple mv bonjout.txt salut.txt // déplace le fichier au meme endroit en le renommant
+mkdir : # créer un répertoire
+```
+```zsh
+touch : # créer un fichier // expemple touch bonjout.txt
+```
+```zsh
+touch : # créer un fichier // expemple touch bonjout.txt
+```
+```zsh
+mv : # déplacer des ficher // mv bonjour.txt test // déplacer ficher bonjour.txt dans le dossier test
 ```
 
 ```zsh
-cp : copier un fichier // expemple touch bonjout.txt repertoire // déplace le fichier à l'intérieur du dossier répertoire
+mv : # renommer un fichier // expemple mv bonjout.txt salut.txt // déplace le fichier au meme endroit en le renommant
 ```
 
 ```zsh
-rm : supprime un fichier // expemple rm bonjout.txt
+cp : # copier un fichier // expemple touch bonjout.txt repertoire // déplace le fichier à l'intérieur du dossier répertoire
+```
+
+```zsh
+rm : # supprime un fichier // expemple rm bonjout.txt
 ```
 ```zsh
-rm -r : supprime un dossier // expemple rm -r repertoire
+rm -r : # supprime un dossier // expemple rm -r repertoire
 ```
 ```zsh
-cat : afficher le contenu d'un fichier // expemple cat bonjout.txt
+cat : # afficher le contenu d'un fichier // expemple cat bonjout.txt
 ```
 ```zsh
-grep : recherche une chaine dans un fichier
+grep : # recherche une chaine dans un fichier
 ```
 ```zsh
-grep -r : Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
+grep -r : # Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
 ```
 
 #### Editeur de test 
 ```zsh
-nano <fichier> : Éditeur de texte simple dans le terminal
-vim <fichier> : Éditeur plus avancé (à apprendre plus tard si besoin)
-code . : Ouvre le dossier courant dans VS Code (si installé avec WSL)
+nano <fichier> : # Éditeur de texte simple dans le terminal
+vim <fichier> : # Éditeur plus avancé (à apprendre plus tard si besoin)
+code . : # Ouvre le dossier courant dans VS Code (si installé avec WSL)
 
 ```
 
