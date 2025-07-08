@@ -2,58 +2,58 @@
 
 #### Nivagation & fichier
 
-```bash
+```zsh
 pwd : # affiche le repertoire de travail
 ```
 ```zsh
 cd : # naviguer dans le systeme
 ```
-```ubuntu
+```zsh
 mkdir : créer un répertoire
 ```
-```ubuntu
+```zsh
 ls : voir contenu des répertoires
 ```
 
-```ubuntu
+```zsh
 mkdir : créer un répertoire
 ```
-```ubuntu
+```zsh
 touch : créer un fichier // expemple touch bonjout.txt
 ```
-```ubuntu
+```zsh
 touch : créer un fichier // expemple touch bonjout.txt
 ```
-```ubuntu
+```zsh
 mv : déplacer des ficher // mv bonjour.txt test // déplacer ficher bonjour.txt dans le dossier test
 ```
 
-```ubuntu
+```zsh
 mv : renommer un fichier // expemple mv bonjout.txt salut.txt // déplace le fichier au meme endroit en le renommant
 ```
 
-```ubuntu
+```zsh
 cp : copier un fichier // expemple touch bonjout.txt repertoire // déplace le fichier à l'intérieur du dossier répertoire
 ```
 
-```ubuntu
+```zsh
 rm : supprime un fichier // expemple rm bonjout.txt
 ```
-```typeScript
+```zsh
 rm -r : supprime un dossier // expemple rm -r repertoire
 ```
-```ubuntu
+```zsh
 cat : afficher le contenu d'un fichier // expemple cat bonjout.txt
 ```
-```ubuntu
+```zsh
 grep : recherche une chaine dans un fichier
 ```
-```ubuntu
+```zsh
 grep -r : Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
 ```
 
 #### Editeur de test 
-```ubuntu
+```zsh
 nano <fichier> : Éditeur de texte simple dans le terminal
 vim <fichier> : Éditeur plus avancé (à apprendre plus tard si besoin)
 code . : Ouvre le dossier courant dans VS Code (si installé avec WSL)
@@ -62,34 +62,34 @@ code . : Ouvre le dossier courant dans VS Code (si installé avec WSL)
 
 #### Shell & scripts
 
-```ubuntu
-echo "texte" : Affiche du texte
-cat <fichier> : Affiche le contenu d’un fichier
-head <fichier> : Affiche les premières lignes
-tail <fichier> : Affiche les dernières lignes
-history : Montre l’historique des commandes
-!! : Réexécute la dernière commande
-Ctrl + R : Recherche dans l’historique
-bash <script.sh> : Exécute un script bash
+```zsh
+echo "texte" : # Affiche du texte
+cat <fichier> : # Affiche le contenu d’un fichier
+head <fichier> : # Affiche les premières lignes
+tail <fichier> : # Affiche les dernières lignes
+history : # Montre l’historique des commandes
+!! : # Réexécute la dernière commande
+Ctrl + R : # Recherche dans l’historique
+bash <script.sh> : # Exécute un script bash
 ```
 
 #### Gestion des paquet (APT)
 
-```ubuntu
-sudo apt update : Met à jour la liste des paquets
-sudo apt upgrade : Met à jour les paquets installés
-sudo apt install <paquet> : Installe un paquet
-sudo apt remove <paquet> : Supprime un paquet
-apt search <terme> : Cherche un paquet
-dpkg -l :Liste les paquets installés
+```zsh
+sudo apt update : # Met à jour la liste des paquets
+sudo apt upgrade : # Met à jour les paquets installés
+sudo apt install <paquet> : # Installe un paquet
+sudo apt remove <paquet> : # Supprime un paquet
+apt search <terme> : # Cherche un paquet
+dpkg -l : # Liste les paquets installés
 ```
 
 #### Droits & permissions
 
-```ubuntu
-chmod +x <fichier> : Rend un script exécutable
-chown <utilisateur>:<groupe> <fichier> : Change le propriétaire d’un fichier
-sudo :Exécute une commande avec les droits admin
+```zsh
+chmod +x <fichier> : # Rend un script exécutable
+chown <utilisateur>:<groupe> <fichier> : # Change le propriétaire d’un fichier
+sudo : # Exécute une commande avec les droits admin
 ```
 
 
