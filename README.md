@@ -1,4 +1,4 @@
-# commades_linux
+# Commandes linux
 
 #### Nivagation & fichier
 
