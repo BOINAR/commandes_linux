@@ -49,8 +49,6 @@ cat : afficher le contenu d'un fichier // expemple cat bonjout.txt
 grep : recherche une chaine dans un fichier
 ```
 
-#### Gestion des paquets
-
 #### Editeur de test 
 ```ubuntu
 nano <fichier> : Éditeur de texte simple dans le terminal
