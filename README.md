@@ -2,10 +2,10 @@
 
 #### Nivagation & fichier
 
-```ubuntu
+```bash
 pwd : affiche le repertoire de travail
 ```
-```ubuntu
+```zsh
 cd : naviguer dans le systeme
 ```
 ```ubuntu
