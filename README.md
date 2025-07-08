@@ -57,6 +57,20 @@ nano <fichier> : Éditeur de texte simple dans le terminal
 vim <fichier> : Éditeur plus avancé (à apprendre plus tard si besoin)
 ```
 
+#### Shell & scripts
+
+```ubuntu
+echo "texte" : Affiche du texte
+cat <fichier> : Affiche le contenu d’un fichier
+head <fichier> : Affiche les premières lignes
+tail <fichier> : Affiche les dernières lignes
+history : Montre l’historique des commandes
+!! : Réexécute la dernière commande
+Ctrl + R : Recherche dans l’historique
+bash <script.sh> : Exécute un script bash
+```
+
+
 
 
 
