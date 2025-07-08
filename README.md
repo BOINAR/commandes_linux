@@ -83,6 +83,14 @@ apt search <terme> : Cherche un paquet
 dpkg -l :Liste les paquets installés
 ```
 
+#### Droits & permissions
+
+```ubuntu
+chmod +x <fichier> : Rend un script exécutable
+chown <utilisateur>:<groupe> <fichier> : Change le propriétaire d’un fichier
+sudo :Exécute une commande avec les droits admin
+```
+
 
 
 
