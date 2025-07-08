@@ -75,7 +75,7 @@ Ctrl + R : # Recherche dans l’historique
 bash <script.sh> : # Exécute un script bash
 ```
 
-#### Gestion des paquet (APT)
+#### Gestion des paquets (APT)
 
 ```zsh
 sudo apt update : # Met à jour la liste des paquets
