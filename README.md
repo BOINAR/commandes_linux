@@ -3,10 +3,10 @@
 #### Nivagation & fichier
 
 ```bash
-pwd : affiche le repertoire de travail
+pwd : # affiche le repertoire de travail
 ```
 ```zsh
-cd : naviguer dans le systeme
+cd : # naviguer dans le systeme
 ```
 ```ubuntu
 mkdir : créer un répertoire
