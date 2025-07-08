@@ -9,7 +9,7 @@ pwd : # affiche le repertoire de travail
 cd : # naviguer dans le systeme
 ```
 ```zsh
-mkdir  # créer un répertoire
+mkdir : # créer un répertoire
 ```
 ```zsh
 ls : # voir contenu des répertoires
