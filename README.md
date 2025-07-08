@@ -48,6 +48,9 @@ cat : afficher le contenu d'un fichier // expemple cat bonjout.txt
 ```ubuntu
 grep : recherche une chaine dans un fichier
 ```
+```ubuntu
+grep : Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
+```
 
 #### Editeur de test 
 ```ubuntu
