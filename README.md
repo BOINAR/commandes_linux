@@ -19,10 +19,6 @@ ls : # voir contenu des répertoires
 ```
 
 ```zsh
-mkdir : # créer un répertoire
-```
-
-```zsh
 touch <fichier> : # créer un fichier // expemple touch bonjout.txt
 ```
 
