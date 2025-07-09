@@ -103,6 +103,16 @@ chown <utilisateur>:<groupe> <fichier> : # Change le propriétaire d’un fichie
 sudo : # Exécute une commande avec les droits admin
 ```
 
+#### 🌐 Réseau
+
+```zsh
+ping google.com :Vérifie la connexion réseau
+curl <url> : Récupère une page ou API (utile en dev)
+wget <url> : Télécharge un fichier via HTTP
+ip a : Affiche les interfaces réseau (comme ifconfig)
+```
+
+
 
 
 
