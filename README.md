@@ -7,11 +7,11 @@ pwd : # affiche le repertoire de travail
 ```
 
 ```zsh
-cd : # naviguer dans le systeme
+cd <dossier> : # naviguer dans le systeme
 ```
 
 ```zsh
-mkdir : # créer un répertoire
+mkdir <dossier> : # créer un répertoire
 ```
 
 ```zsh
@@ -23,39 +23,48 @@ mkdir : # créer un répertoire
 ```
 
 ```zsh
-touch : # créer un fichier // expemple touch bonjout.txt
+touch <fichier> : # créer un fichier // expemple touch bonjout.txt
 ```
 
 ```zsh
-mv : # renommer un fichier // expemple mv bonjout.txt salut.txt // déplace le fichier au meme endroit en le renommant
+mv <src> <dest> : # renommer un fichier // expemple mv bonjout.txt salut.txt // déplace le fichier au meme endroit en le renommant
 ```
 
 ```zsh
-cp : # copier un fichier // expemple touch bonjout.txt repertoire // déplace le fichier à l'intérieur du dossier répertoire
+cp <src> <dest> : # copier un fichier // expemple touch bonjout.txt repertoire // déplace le fichier à l'intérieur du dossier répertoire
 ```
 
 ```zsh
-rm : # supprime un fichier // expemple rm bonjout.txt
+rm <fichier> : # supprime un fichier // expemple rm bonjout.txt
 ```
 
 ```zsh
-rm -r : # supprime un dossier // expemple rm -r repertoire
+rm -r <dossier> : # supprime un dossier // expemple rm -r repertoire
 ```
 
 ```zsh
-cat : # afficher le contenu d'un fichier // expemple cat bonjout.txt
+cat <fichier> : # afficher le contenu d'un fichier // expemple cat bonjout.txt
 ```
 
 ```zsh
-grep : # recherche une chaine dans un fichier
+grep "<mot>" <fichier> : # recherche une chaine dans un fichier
 ```
 
 ```zsh
-grep -r : # Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
+grep -r "<mot>" . : # Cherche le mot dans tous les fichiers du dossier courant et dans tous ses sous-dossiers, et dans les fichiers qu’ils contiennent, etc.
 ```
 
 ```zsh
 ps : # verifier les processus en cours
+```
+
+```zsh
+ls -la : # liste les fichier / affiche les détails / Affiche aussi les fichiers cachés --color=auto
+Coloration (souvent activée automatiquement)
+```
+
+```zsh
+ls -a : # affiche tous les fichiers et dossiers, y compris les fichiers cachés (ceux qui commencent par un .), ainsi que . (dossier courant) et .. (dossier parent).
 ```
 
 #### Editeur de test 
