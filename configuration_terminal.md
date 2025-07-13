@@ -20,3 +20,9 @@ export PATH="$PATH:$ANDROID_HOME/emulator"
 ```zsh
 nano ~/.zshrc
 ```
+## Permet de recharger le fichier sans fermer le terminal
+```zsh
+source ~/.zshrc
+```
+
+
