@@ -1,6 +1,6 @@
 # Commandes linux
 
-#### Nivagation & fichier
+#### Navigation & fichier
 
 ```zsh
 pwd : # affiche le repertoire de travail
