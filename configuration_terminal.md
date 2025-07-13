@@ -25,4 +25,29 @@ nano ~/.zshrc
 source ~/.zshrc
 ```
 
+## 🪄 2. Alias utiles
+
+Les alias permettent de raccourcir des commandes longues ou d’en créer de nouvelles. Ils se définissent comme ceci :
+
+```bash
+alias nom_alias='commande_originale'
+
+
+# Ouvrir VS Code
+alias codev='code .'
+
+# Lister les fichiers avec détails et couleur
+alias ll='ls -alh --color=auto'
+
+# Mettre à jour les paquets sous Debian/Ubuntu
+alias maj='sudo apt update && sudo apt upgrade -y'
+
+# Naviguer rapidement
+alias proj='cd ~/Documents/projets'
+
+# Lancer Android Studio
+alias studio='~/android-studio/bin/studio.sh'
+
+# Redémarrer le shell Zsh
+alias reload='source ~/.zshrc'
 
