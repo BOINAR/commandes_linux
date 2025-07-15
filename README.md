@@ -64,7 +64,7 @@ ls -a : # affiche tous les fichiers et dossiers, y compris les fichiers cachés 
 ```
 
 ```zsh
-history	Affiche ton historique de commandes
+history # Affiche ton historique de commandes
 ```
 
 
