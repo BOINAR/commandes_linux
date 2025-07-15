@@ -63,6 +63,11 @@ Coloration (souvent activée automatiquement)
 ls -a : # affiche tous les fichiers et dossiers, y compris les fichiers cachés (ceux qui commencent par un .), ainsi que . (dossier courant) et .. (dossier parent).
 ```
 
+```zsh
+history	Affiche ton historique de commandes
+```
+
+
 #### Editeur de test 
 
 ```zsh
