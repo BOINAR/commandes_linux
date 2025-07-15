@@ -1,9 +1,0 @@
-
-📄 Archives et compression
-
-
-| Commande                            | Description             |
-| ----------------------------------- | ----------------------- |
-| `tar -czvf archive.tar.gz dossier/` | Compresse un dossier    |
-| `tar -xzvf archive.tar.gz`          | Décompresse une archive |
-| `unzip fichier.zip`                 | Décompresse un `.zip`   |
